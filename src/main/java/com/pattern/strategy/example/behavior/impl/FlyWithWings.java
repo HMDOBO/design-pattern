@@ -1,6 +1,6 @@
-package com.pattern.strategy.behavior.impl;
+package com.pattern.strategy.example.behavior.impl;
 
-import com.pattern.strategy.behavior.FlyBehavior;
+import com.pattern.strategy.example.behavior.FlyBehavior;
 
 /**
  * fly行为具体实现

@@ -1,8 +1,8 @@
-package com.pattern.strategy.sub;
+package com.pattern.strategy.example.sub;
 
-import com.pattern.strategy.sup.Duck;
-import com.pattern.strategy.behavior.impl.FlyWithWings;
-import com.pattern.strategy.behavior.impl.Quack;
+import com.pattern.strategy.example.sup.Duck;
+import com.pattern.strategy.example.behavior.impl.FlyWithWings;
+import com.pattern.strategy.example.behavior.impl.Quack;
 
 /**
  * 具体Duck类

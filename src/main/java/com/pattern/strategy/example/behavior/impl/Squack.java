@@ -1,6 +1,6 @@
-package com.pattern.strategy.behavior.impl;
+package com.pattern.strategy.example.behavior.impl;
 
-import com.pattern.strategy.behavior.QuackBehavior;
+import com.pattern.strategy.example.behavior.QuackBehavior;
 
 public class Squack implements QuackBehavior {
 

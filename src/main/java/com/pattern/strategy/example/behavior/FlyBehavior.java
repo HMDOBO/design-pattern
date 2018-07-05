@@ -1,4 +1,4 @@
-package com.pattern.strategy.behavior;
+package com.pattern.strategy.example.behavior;
 
 /**
  * fly行为类

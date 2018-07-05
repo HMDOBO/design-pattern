@@ -1,7 +1,7 @@
-package com.pattern.strategy.sup;
+package com.pattern.strategy.example.sup;
 
-import com.pattern.strategy.behavior.FlyBehavior;
-import com.pattern.strategy.behavior.QuackBehavior;
+import com.pattern.strategy.example.behavior.FlyBehavior;
+import com.pattern.strategy.example.behavior.QuackBehavior;
 
 /**
  * 策略模式

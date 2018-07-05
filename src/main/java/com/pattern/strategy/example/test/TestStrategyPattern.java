@@ -1,9 +1,9 @@
-package com.pattern.strategy.test;
+package com.pattern.strategy.example.test;
 
-import com.pattern.strategy.sup.Duck;
-import com.pattern.strategy.behavior.impl.FlyNoWay;
-import com.pattern.strategy.behavior.impl.Squack;
-import com.pattern.strategy.sub.RedFlyQuackDuck;
+import com.pattern.strategy.example.sup.Duck;
+import com.pattern.strategy.example.behavior.impl.FlyNoWay;
+import com.pattern.strategy.example.behavior.impl.Squack;
+import com.pattern.strategy.example.sub.RedFlyQuackDuck;
 
 /**
  * 策略模式，可以动态切换表现行为
