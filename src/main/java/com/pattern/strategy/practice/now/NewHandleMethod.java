@@ -31,8 +31,7 @@ public class NewHandleMethod {
         if (null == calculate) {
             return null;
         }
-        Integer result = calculate.calculate(number1, number2);
-        return result;
+        return calculate.calculate(number1, number2);
     }
 
 }

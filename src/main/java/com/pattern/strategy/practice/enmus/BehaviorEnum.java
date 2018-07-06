@@ -16,7 +16,7 @@ public enum BehaviorEnum {
     private String oper;
     private Calculate calculate;
 
-    private BehaviorEnum(String oper, Calculate calculate) {
+    BehaviorEnum(String oper, Calculate calculate) {
         this.oper = oper;
         this.calculate = calculate;
     }
@@ -29,21 +29,5 @@ public enum BehaviorEnum {
             }
         }
         return null;
-    }
-
-    public String getOper() {
-        return oper;
-    }
-
-    public void setOper(String oper) {
-        this.oper = oper;
-    }
-
-    public Calculate getCalculate() {
-        return calculate;
-    }
-
-    public void setCalculate(Calculate calculate) {
-        this.calculate = calculate;
     }
 }

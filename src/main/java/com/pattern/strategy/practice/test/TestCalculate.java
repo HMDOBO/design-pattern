@@ -11,7 +11,7 @@ public class TestCalculate {
 //        System.out.println(result);
 
         NewHandleMethod handleMethod = new NewHandleMethod();
-        Integer result = handleMethod.calculate(1, 3, "add");
+        Integer result = handleMethod.calculate(5, 3, "mult");
         System.out.println(result);
     }
 
