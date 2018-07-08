@@ -1,6 +1,6 @@
-package com.pattern.observer.observers;
+package com.pattern.observer.example.myimpl.observers;
 
-import com.pattern.observer.subject.Subject;
+import com.pattern.observer.example.myimpl.subject.Subject;
 
 public class StatisticsDisplay implements Observer, DisplayElement{
 

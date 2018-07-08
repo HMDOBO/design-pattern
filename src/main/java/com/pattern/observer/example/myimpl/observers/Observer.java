@@ -1,4 +1,4 @@
-package com.pattern.observer.observers;
+package com.pattern.observer.example.myimpl.observers;
 
 public interface Observer {
 

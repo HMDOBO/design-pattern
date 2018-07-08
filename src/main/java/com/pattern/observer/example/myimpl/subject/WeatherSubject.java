@@ -1,6 +1,6 @@
-package com.pattern.observer.subject;
+package com.pattern.observer.example.myimpl.subject;
 
-import com.pattern.observer.observers.Observer;
+import com.pattern.observer.example.myimpl.observers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
