@@ -11,7 +11,6 @@ public class TestClass {
     public static void main(String[] args) {
         String img = new String ("我是一张图片");
 
-
         // 创建被装饰者
         PictureHandler handler = new PictureUpload();
 
@@ -33,8 +32,6 @@ public class TestClass {
         img = handler.handler(img);
 
         System.out.println(img);
-
-
     }
 
 }
