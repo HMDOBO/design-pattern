@@ -40,12 +40,15 @@ public class RemoteControllerTest {
 
         controller.onButtWasPressed(0);
         controller.offButtWasPressed(0);
+        controller.undoButtWasPressed();
 
         controller.onButtWasPressed(1);
         controller.offButtWasPressed(1);
+        controller.undoButtWasPressed();
 
         controller.onButtWasPressed(2);
         controller.offButtWasPressed(2);
+        controller.undoButtWasPressed();
     }
 
 }

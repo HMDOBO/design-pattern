@@ -10,6 +10,7 @@ public class RemoteController {
 
     Command[] onCommands;   // 开按钮
     Command[] offCommands;  // 关按钮
+    Command undoCommand;
 
     public RemoteController() {
         onCommands = new Command[7];
@@ -29,10 +30,16 @@ public class RemoteController {
 
     public void onButtWasPressed(int slot) {
         onCommands[slot].execute();
+        undoCommand = onCommands[slot];
     }
 
     public void offButtWasPressed(int slot) {
         offCommands[slot].execute();
+        undoCommand = offCommands[slot];
+    }
+
+    public void undoButtWasPressed() {
+        undoCommand.undo();
     }
 
     @Override
